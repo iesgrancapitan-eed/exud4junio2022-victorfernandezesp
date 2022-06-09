@@ -5,6 +5,26 @@ class Bicycle {
   private int speed;
   private int gear;
     
+  private int getSpeed() {
+    return speed;
+  }
+
+
+  private void setSpeed(int speed) {
+    this.speed = speed;
+  }
+
+
+  private int getGear() {
+    return gear;
+  }
+
+
+  private void setGear(int gear) {
+    this.gear = gear;
+  }
+
+
   public void changeGear(int newGear){     
       gear = newGear;
   }
