@@ -24,15 +24,17 @@
 10. En la clase Bicycle haz las refactorizaciones que necesites para que cambie a Bike. Asegúrate de que se cambian también las referencias en comentarios y cadenas.
 
 11. Añade el diálogo de la refactorización con todo debidamente marcado
+![Dialogo1](11.jpg)
+![Dialogo2](12.jpg)
 
-12. Realiza un commit con el mensaje apropiado
+1.  Realiza un commit con el mensaje apropiado
 
-13. Extrae el interfaz "Vehicle" a partir de la clase "Bike". Incluye todos los métodos menos toString
+2.  Extrae el interfaz "Vehicle" a partir de la clase "Bike". Incluye todos los métodos menos toString
 
-14. Realiza un commit con el mensaje adecuado
+3.  Realiza un commit con el mensaje adecuado
 
 
-15. Fusiona la rama "refactoring" en la rama "develop" 
+4.  Fusiona la rama "refactoring" en la rama "develop" 
 
 ## Documentación
 16. Crea la **rama "documentation"** a partir de la rama "develop". Trabajarás en ella la documentación.
