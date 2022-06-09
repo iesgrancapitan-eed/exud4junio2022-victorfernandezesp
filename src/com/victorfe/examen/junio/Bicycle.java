@@ -1,4 +1,4 @@
-package src.com.vicfe.examen.junio;
+package src.com.victorfe.examen.junio;
 
 
 class Bicycle {  
