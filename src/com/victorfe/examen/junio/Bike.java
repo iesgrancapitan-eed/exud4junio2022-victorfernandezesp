@@ -1,7 +1,7 @@
 package src.com.victorfe.examen.junio;
 
 
-class Bike {  
+class Bike implements Vehicle {  
   private int speed;
   private int gear;
     
@@ -25,19 +25,23 @@ class Bike {
   }
 
 
+  @Override
   public void changeGear(int newGear){     
       gear = newGear;
   }
     
   
+  @Override
   public void speedUp(int increment){
       speed = speed + increment;
   }
     
+  @Override
   public void applyBrakes(int decrement){     
       speed = speed - decrement;
   }
     
+  @Override
   public void printStates() {
       System.out.println("speed: " + speed
           + " gear: " + gear);
